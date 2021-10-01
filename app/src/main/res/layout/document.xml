@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/videoIcon"
+        android:id="@+id/docIcon"
         android:layout_width="105dp"
         android:layout_height="126dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -15,20 +15,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@android:drawable/presence_video_online" />
+        app:srcCompat="@android:drawable/ic_menu_my_calendar" />
 
     <TextView
-        android:id="@+id/videoDetail"
+        android:id="@+id/docDetail"
         android:layout_width="310dp"
         android:layout_height="120dp"
         android:gravity="center|center_vertical"
-        android:text="details of video"
+        android:text="details of documents"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/videoIcon"
+        app:layout_constraintStart_toEndOf="@+id/docIcon"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.009" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-    ic_menu_my_calendar

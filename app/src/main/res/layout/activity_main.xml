@@ -48,6 +48,7 @@
         android:id="@+id/docs"
         android:layout_width="282dp"
         android:layout_height="103dp"
+        android:onClick="loadDocuments"
         android:text="Document"
         app:layout_constraintBottom_toTopOf="@+id/image"
         app:layout_constraintEnd_toEndOf="parent"

@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_document_list.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/Hp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_video_list.xml" value="0.18645833333333334" />
-        <entry key="..\:/Users/Hp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/video.xml" value="0.2" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/document.xml" value="0.2" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/MyApplication/app/src/main/res/layout/video.xml" value="0.1" />
       </map>
     </option>
   </component>

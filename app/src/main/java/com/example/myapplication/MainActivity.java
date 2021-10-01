@@ -30,5 +30,7 @@ public class MainActivity extends AppCompatActivity {
     public void loadDocuments(View view)
     {
         Toast.makeText(this, "documents list is loading", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, DocList.class);
+        startActivity(intent);
     }
 }
