@@ -1,24 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myapplication">
-
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Home"
+        android:label="Duplicate Eraser"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".recycleVideo"
+            android:exported="true"
+            android:label="Recycle video List"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".videoList"
+            android:exported="true"
             android:label="video List"
-            android:parentActivityName=".MainActivity"
-            android:exported="true" />
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".DocList"
+            android:exported="true"
             android:label="Document List"
-            android:parentActivityName=".MainActivity"
-            android:exported="true" />
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
